@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title description">
+  <title id="title">Communication time by message size</title>
+  <desc id="description">Logarithmic plot of five measurements: 1024 bytes, 0.000014228 seconds; 10240 bytes, 0.000162146 seconds; 102400 bytes, 0.000048666 seconds; 1048576 bytes, 0.000429672 seconds; 10485760 bytes, 0.003423782 seconds.</desc>
+  <rect width="900" height="560" fill="#fafbf9"/>
+  <g font-family="Arial, sans-serif" fill="#213b3b">
+    <text x="450" y="38" font-size="23" font-weight="bold" text-anchor="middle">Communication time vs. message size</text>
+    <g stroke="#dae2df" stroke-width="1">
+      <path d="M100 80H810 M100 200H810 M100 320H810 M100 440H810"/>
+      <path d="M100 80V440 M277 80V440 M454 80V440 M633 80V440 M810 80V440"/>
+    </g>
+    <path d="M100 80V440H810" fill="none" stroke="#344d4b" stroke-width="2"/>
+    <g font-size="13" text-anchor="end">
+      <text x="88" y="84">0.01</text>
+      <text x="88" y="204">0.001</text>
+      <text x="88" y="324">0.0001</text>
+      <text x="88" y="444">0.00001</text>
+    </g>
+    <g font-size="13" text-anchor="middle">
+      <text x="100" y="464">1,024</text>
+      <text x="277" y="464">10,240</text>
+      <text x="454" y="464">102,400</text>
+      <text x="633" y="464">1,048,576</text>
+      <text x="810" y="464">10,485,760</text>
+    </g>
+    <text x="455" y="511" font-size="16" text-anchor="middle">Message size (bytes, log scale)</text>
+    <text x="23" y="260" font-size="16" text-anchor="middle" transform="rotate(-90 23 260)">Communication time (seconds, log scale)</text>
+    <path d="M100 421.6L277 294.8L454 357.6L633 244L810 135.8" fill="none" stroke="#157d77" stroke-width="3" stroke-linejoin="round"/>
+    <g fill="#d05934" stroke="#fafbf9" stroke-width="2">
+      <circle cx="100" cy="421.6" r="6"/>
+      <circle cx="277" cy="294.8" r="6"/>
+      <circle cx="454" cy="357.6" r="6"/>
+      <circle cx="633" cy="244" r="6"/>
+      <circle cx="810" cy="135.8" r="6"/>
+    </g>
+    <g font-size="13" font-weight="bold">
+      <text x="113" y="409">0.000014228 s</text>
+      <text x="289" y="283">0.000162146 s</text>
+      <text x="466" y="345">0.000048666 s</text>
+      <text x="645" y="232">0.000429672 s</text>
+      <text x="798" y="124" text-anchor="end">0.003423782 s</text>
+    </g>
+  </g>
+</svg>
